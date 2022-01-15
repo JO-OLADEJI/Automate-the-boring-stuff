@@ -1,0 +1,66 @@
+1. What are the two values of the Boolean data type? How do you write them?
+- True
+- False
+
+2. What are the three Boolean operators?
+- and
+- or
+- not
+
+3. Write out the truth tables of each Boolean operator (that is, every possible combination of Boolean values for the operator and what they evaluate to).
+
+- True and True -> True
+- True and False -> False
+- False and True -> False
+- False and False -> False 
+
+- True or True -> True
+- True or False -> True
+- False or True -> True
+- False or False -> False 
+
+not True -> False
+not False -> True 
+
+4. What do the following expressions evaluate to?
+- False
+- False
+- True
+- False
+- False
+- True
+
+5. What are the six comparison operators?
+- +
+- -
+- /
+- *
+- //
+- %
+
+6. What is the difference between the equal to operator and the assignment operator?
+- == (equal to operator)
+- = (assignment operator)
+
+7. Explain what a condition is and where you would use one.
+- a condition is an expression that evaluates to a boolean value.
+
+8. Identify the three blocks in this code:
+- line 3
+- line 5
+- line 7
+
+10. What can you press if your program is stuck in an infinite loop?
+- Ctrl + c
+
+11. What is the difference between break and continue?
+- break exits a loop instantly
+- continue jumps back to the beginning of the loop (as a new iteration)
+
+12. What is the difference between range(10), range(0, 10), and range(0, 10, 1) in a for loop?
+- range(10): starts from zero up to, but not including the argument
+- range(0, 10): starts from the first argument up to, but not including the second argument
+- range(0, 10, 1): starts from the first argument, step with the last argument, up to but not including the second argument
+
+14. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+- spam.bacon()
